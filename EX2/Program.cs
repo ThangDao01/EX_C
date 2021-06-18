@@ -24,7 +24,6 @@ namespace EX2
                     {
                         if (strToChar[i + j].Equals(wordToChar[j]))
                         {
-                            Console.WriteLine(strToChar[i + j] + "&" + wordToChar[j]);
                             if (j == wordToChar.Length-1)
                             {
                                 ++count;
